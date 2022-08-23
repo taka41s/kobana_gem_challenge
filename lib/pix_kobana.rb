@@ -19,10 +19,6 @@ module PixKobana
         @txid = options[:txid]
     end
   
-    def make
-      api_request
-    end
-  
     def api_request
       http = Net::HTTP.new(url.host, url.port)
       http.use_ssl = true
