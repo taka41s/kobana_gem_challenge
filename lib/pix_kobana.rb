@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "pix_kobana/version"
 require 'uri'
 require 'net/http'
